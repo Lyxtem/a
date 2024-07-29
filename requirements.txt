@@ -1,0 +1,4 @@
+orjson
+pyfiglet
+requests_futures
+httpx
