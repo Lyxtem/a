@@ -8,11 +8,11 @@ import re
 from core.controllers import Controller
 from core.arguments import parse_args
 # Clear the terminal and get terminal size
-os.system('clear')
+os.system('cls')
 columns, rows = shutil.get_terminal_size()
 
 # Generate the ASCII art text using pyfiglet
-ascii_text = pyfiglet.figlet_format("Ambatokamer", font="standard")
+ascii_text = pyfiglet.figlet_format("Lyxtem", font="standard")
 
 # Split the ASCII art text into lines
 lines = ascii_text.split("\n")
@@ -30,7 +30,7 @@ print("\033[1m\033[32m", end="")
 for i in range(len(lines)):
     print(f"\033[{positions[i]};{x}H{lines[i]}")
 print("\033[1m\033[35m", end="")
-print(f"\033[{positions[-1]+1};{x};{x}H[ MACHINE ] : Ambatokam finder")
+print(f"\033[{positions[-1]+1};{x};{x}H[ MACHINE ] : Lyxtem finder")
 print("\033[0m", end="")  # Reset font attributes and text color to default values
 
 def get_content_from_sources():
@@ -45,7 +45,10 @@ def get_content_from_sources():
    'https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/https.txt',
    'https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/https/https.txt',
    'https://raw.githubusercontent.com/saisuiu/Lionkings-Http-Proxys-Proxies/main/free.txt',
-   'https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/https/https.txt'
+   'https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/https/https.txt',
+   'https://raw.githubusercontent.com/omarwrf55/rice-ambatokamer2/main/data%20(3).txt',
+   'https://raw.githubusercontent.com/omarwrf55/rice-ambatokamer2/main/data%20(2).txt',
+   'https://raw.githubusercontent.com/omarwrf55/kol2/main/data%20(2).txt'
   ]
 
   # Make an HTTP request to each URL and retrieve the content
