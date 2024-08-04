@@ -19,21 +19,21 @@ def esexpls(url, data):
         return None
 
 def send_to_free_finder(id):
-  webhook = "https://discord.com/api/webhooks/1210689833387696168/eEto2N_jxvxz2_s2hSCLcFFAWq51E9tNu6t6ZMy5hAa1xLgXtvPQZ2TZ0-Cxq333EHLE"
+  webhook = "https://discord.com/api/webhooks/1268803047694270487/5EoGqOAlfiE8nyMlhX-8nAQE0MmTnqb1c28Q57sdri5eexA6F1wRGdUff1qxkuLyhfMU"
   data = {
       "content": f"https://www.roblox.com/groups/{id}"
   }
   return esexpls(webhook, data)
 
 def send_to_level_5(id):
-  webhook = "https://discord.com/api/webhooks/1210689833387696168/eEto2N_jxvxz2_s2hSCLcFFAWq51E9tNu6t6ZMy5hAa1xLgXtvPQZ2TZ0-Cxq333EHLE"
+  webhook = "https://discord.com/api/webhooks/1268803047694270487/5EoGqOAlfiE8nyMlhX-8nAQE0MmTnqb1c28Q57sdri5eexA6F1wRGdUff1qxkuLyhfMU"
   data = {
       "content": f"https://roblox.com/groups/{id}"
   }
   return esexpls(webhook, data)
 
 def send_to_premium_finder(id):
-  webhook = "https://discord.com/api/webhooks/1210689833387696168/eEto2N_jxvxz2_s2hSCLcFFAWq51E9tNu6t6ZMy5hAa1xLgXtvPQZ2TZ0-Cxq333EHLE"
+  webhook = "https://discord.com/api/webhooks/1269315930228527300/lwQI80O1hhSKfhYTXMYh_uuI7ThaW-Dy9_GBhkLg77CrfcWoQ3HMniF48qyssiBKUrxI"
   data = {
       "content": f"https://roblox.com/groups/{id}"
   }
